@@ -5,16 +5,9 @@
 # pop - exclui um elemento da lista.
 # insert - insere um elemento no vetor.
 # for i in range(): - loop para coletar dados.
-
-variavel = ["Lucas","Luiz","Ana"]
-variavel.sort()
-variavel.pop(1)
-print(variavel)
-
-
 # Cria a lista vazia de irá armazenar os dados das comissões dos funcionários
-comissoes = []
 
+comissoes = []
 # Loop que, neste caso, roda apenas 1 vez (poderia ser auemntado para mais funcionários)
 for i in range(1):
     nome = input("Digite o nome do funcionário: ")
